@@ -106,6 +106,8 @@ a{
     gap: 2rem;
     margin: 0 2rem;
 }
+
+/* Bagian kiri */
 .leftSide{
     display: flex;
     flex-direction: column;
@@ -138,6 +140,7 @@ a{
 .Text::-webkit-scrollbar{
     display: none;
 }
+/* Bagian kiri-end */
 
 /* Bagian kanan */
 .rightSide{
@@ -180,13 +183,33 @@ a{
     color: var(--primaryIconColor);
     transition-duration: 0.4s;
 }
+/* Bagian kanan-end */
 
 /* conten3half-container */
 .content3half-container{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    width: 54.8%;
+    height: 170px;
+    background-color: #2075ff;
     margin: 1rem 2rem;
-    grid-template-columns: 1.5fr 1fr;
+    /* display: grid;
+    margin: 1rem 2rem;
+    grid-template-columns: 1.5fr 1fr; */
     /* background-color: blue; */
+}
+.textBenefit{
+    
+}
+.listBenefit{
+    padding: 1rem 1rem 1rem 3rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.listBenefit ol{
+    border: 1px solid black;
+    display: inline-block;
+    
 }
 
 /* Content OurPackage */
@@ -196,6 +219,7 @@ a{
 .OurPackage{
     color: var(--primaryTextColor);
 }
+/* Contact OurPackage-end */
 
 /* Content CallUs */
 /* #CallUs{
