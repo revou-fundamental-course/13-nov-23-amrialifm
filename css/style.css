@@ -135,13 +135,14 @@ a{
 .imageSlides{
     display: none;
 }
-.prev, .next{
+.prev{
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: -140px;
     width: auto;
-    margin-top: -60px;
+    margin-top: 0px;
     padding: 16px;
+    left: 80px;
     color: var(--primaryBackground);
     font-weight: bold;
     font-size: 18px;
@@ -150,9 +151,19 @@ a{
     user-select: none;
 }
 .next{
-    width: 460px;
-    right: 0;
-    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    position: relative;
+    top: -140px;
+    width: auto;
+    margin-top: 0px;
+    padding: 16px;
+    left: 457px;
+    color: var(--primaryBackground);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 .prev:hover, .next:hover{
     color: var(--primaryIconColorHover);
