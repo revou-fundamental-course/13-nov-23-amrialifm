@@ -48,8 +48,43 @@
                         <!-- Slideshow image -->
                         <div class="leftSide">
                             <!-- Image slideshow -->
-                            <div class="imgSlides">
-                                <img src="./assets/Gambar1.jpeg" style="width: 100%;height: 250px;">
+                            <div class="imgSlides-container">
+                                <div class="imageSlides fade">
+                                    <div class="numberText">1 / 5</div>
+                                    <img src="./assets/Gambar1.jpeg" style="width: 100%;height: 250px;">
+                                    <div class="captionText">Caption Text</div>
+                                </div>
+                                <div class="imageSlides fade">
+                                    <div class="numberText">2 / 5</div>
+                                    <img src="./assets/Gambar2.jpeg" style="width: 100%;height: 250px;">
+                                    <div class="captionText">Caption Text</div>
+                                </div>
+                                <div class="imageSlides fade">
+                                    <div class="numberText">3 / 5</div>
+                                    <img src="./assets/Gambar3.jpeg" style="width: 100%;height: 250px;">
+                                    <div class="captionText">Caption Text</div>
+                                </div>
+                                <div class="imageSlides fade">
+                                    <div class="numberText">4 / 5</div>
+                                    <img src="./assets/Gambar4.jpeg" style="width: 100%;height: 250px;">
+                                    <div class="captionText">Caption Text</div>
+                                </div>
+                                <div class="imageSlides fade">
+                                    <div class="numberText">5 / 5</div>
+                                    <img src="./assets/Gambar5.jpeg" style="width: 100%;height: 250px;">
+                                    <div class="captionText">Caption Text</div>
+                                </div>
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            <br>
+
+                            <div style="text-align: center;">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
                             </div>
 
                             <!-- comment -->
